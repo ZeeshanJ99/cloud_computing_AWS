@@ -11,7 +11,7 @@ In AWS, make sure the Ireland server is selected. Then proceed and navigate to S
 - add tags - add name as the key: zeeshan, value = SRE_name_app
 - configure security group - name:SRE_name_app  type: SSH, port range: 22, source: my IP, add your IP (google my IP if not known)
 - Add a rule HTTP with 0.0.0.0 IP address to allow for access from any IP
-- choose an existing key and launch the machine
+- choose an existing key and launch the machine (e.g. sre_key.pem) THESE KEYS MUST NEVER BE SHARED ON THE CLOUD MAKE SURE TO NOT PUSH THIS FILE
 
 ## Adding port 3000
 - Navigate to security groups and add the inbound rule. The port should be `3000` and the source as `Anywhere IPV4` 
