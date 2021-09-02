@@ -1,3 +1,4 @@
+![Monolith architecture](https://user-images.githubusercontent.com/88186084/131873390-14a52f16-c301-42b1-8145-0ea20d099fb2.jpg)
 # cloud_computing_AWS
 ## Instructions for setting up EC2 machine
 
