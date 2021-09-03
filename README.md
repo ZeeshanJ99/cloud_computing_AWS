@@ -22,7 +22,7 @@ In AWS, make sure the Ireland server is selected. Then proceed and navigate to S
 Get the key and save it into a memorable directory that you WILL NOT UPLOAD ANYWHERE
 Copy the chmod line for the first time and then place ssh line into the git bash terminal where the app is located. 
 
-`scp -ri ~/.ssh/sre_key.pem app ubuntu@3.250.188.220:/home/ubuntu/app`
+`ssh -i "sre_key.pem" root@ec2-12-208-152-38.eu-west-1.compute.amazonaws.com`
 - the ip changes everytime you launch a new instance
 
 ## Provisioning
